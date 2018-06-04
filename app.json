@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Cobra",
+    "description": "Cobra",
+    "slug": "cobraapp",
+    "privacy": "public",
+    "sdkVersion": "25.0.0",
+    "version": "0.0.14",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "./assets/icons/icon_cobra.png",
+    "scheme": "cobraapp",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": [
+      "assets/icons/*",
+    ],
+    "android": {
+      "package": "today.smartcontrol.cobraapp",
+      "versionCode": 1,
+      "permissions": ["CAMERA"]
+    },
+    "packagerOpts": {
+      "assetExts": ["ttf", "mp4"]
+    },
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
